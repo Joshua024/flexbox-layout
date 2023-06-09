@@ -1,0 +1,136 @@
+/* New style  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+}
+.general{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.first, .second, .third, .fourth,
+.fifth, .sixth, .seventh, .eighth, 
+.ninth, .tenth, .eleventh, .last{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.first{
+    width: 100%;
+    background-color: gray;
+}
+.card{
+    background-color: gray;
+    width: 100%;
+}
+
+/* old style  */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+    border: 2px solid white;
+    color: white;
+}
+.general{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.first{
+    width: 100%;
+    background-color: gray;
+}
+
+.second{
+    display: flex;
+    width: 100%;
+}
+.second .card1{
+    width: 50%;
+    background-color: gray;
+
+}
+.second .card2{
+    width: 50%;
+    background-color: gray;
+}
+.third{
+    display: flex;
+}
+.third .card{
+    width: 33.3%;
+    background-color: gray;
+}
+.fourth{
+    display: flex;
+}
+.fourth .card{
+  width: 25%;
+  background-color: gray;
+}
+.fifth{
+    display: flex;
+}
+.fifth .card{
+  width: 20%;
+  background-color: gray;
+}
+.sixth{
+    display: flex;
+}
+.sixth .card{
+  width: 16.7%;
+  background-color: gray;
+}
+.seventh{
+    display: flex;
+}
+.seventh .card{
+    width: 14.5%;
+    background-color: gray;
+}
+.eighth{
+    display: flex;
+}
+.eighth .card{
+    width: 12.5%;
+    background-color: gray;
+}
+.ninth{
+    display: flex;
+}
+.ninth .card{
+    width: 11.1%;
+    background-color: gray;
+}
+.tenth{
+    display: flex;
+}
+.tenth .card{
+    width: 10%;
+    background-color: gray;
+}
+.eleventh{
+    display: flex;
+}
+.eleventh .card{
+    width: 9.5%;
+    background-color: gray;
+}
+.last{
+    display: flex;
+}
+.last .card{
+    width: 8.5%;
+    background-color: gray;
+} */
